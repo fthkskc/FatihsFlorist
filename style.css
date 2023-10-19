@@ -1,0 +1,63 @@
+/* Typography styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(131, 246, 131);
+}
+
+p, h1, h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+h1 {
+    color: yellow;
+}
+
+h2 {
+    color: yellow;
+}
+
+/* ID-specific styles */
+#second {
+    color: purple;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+    padding: 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    font-family: arial;
+    color: white;
+}
+
+#navbar a:hover {
+    color: red;
+ 
+}
+
+/* Image-related styles */
+.image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+img {
+    width: 30%;
+}
+
+.florist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
